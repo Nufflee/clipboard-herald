@@ -1,0 +1,7 @@
+[avherald]
+replace = "avherald.com"
+with = "nuff.gay"
+
+[twitter]
+replace = "x.com"
+with = "fixupx.com"
