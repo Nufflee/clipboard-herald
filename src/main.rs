@@ -1,4 +1,5 @@
-//#![windows_subsystem = "windows"]
+// Only use the windows subsystem if in release mode (hides the terminal).
+#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 use std::process::Command;
 
